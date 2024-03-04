@@ -58,6 +58,7 @@ For loop - Number of the element we need to loop over are now before hand.
 While loop - Number of elements not known before hand
 """
 
+
 # Tuples
 
 # my_tuple = (1, 2, 3, 2)
@@ -100,45 +101,42 @@ While loop - Number of elements not known before hand
 #
 # my_function()
 
-def hello_name(name):
-    print(f'Hello {name}')
+# def hello_name(name):
+#     print(f'Hello {name}')
+#
+#  Function argument have two types named and position argument
+#
+# hello_name('Habib')
+# hello_name(name='John')  # To work with position argument
 
-hello_name('Habib')
+# If you put a comma / at the end of argument the function well only accept positional argument
+# def example(age, level, /):
+#     print(age, level, sep='\n')
+#
+#
+# example(19, 67)
+#  If you put a comma * at the end of argument the function well only accept named argument
+# def example(*, name, age):
+#     print(name, age)
+#
+# example(name='habib', age=77)
 
+# The Default value can also be set on functions
+# def example(name, age=18):
+#     print(name, age)
+#
+# example('Habib', 19)
+# example('Habib')
 
+# Arbitrary argument: allows you to pass as many argue as you need,
+# Using double ** means you will need to use key word e.g **kid: print(first='habib', last='mohammed')
+# def sibling_kids(name, *kid):
+#     print(f'User\'s name {name}')
+#     print(kid)
+#
+#
+# sibling_kids('habib', 'awwal', 'fawwaz')
 
+# Functions call use the return keyword to return a value
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print()

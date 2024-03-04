@@ -1,9 +1,16 @@
-names = ['John', 'Smith', 'Habib', 'God']
-print(names[1])
+# for i in sequence:
+#     statement
 
-# Unpacking a list
-name1, name2, name3, name4 = names
-print(name1, name2, name3, name4)
+# range(start, stop, step_size)
 
-name5, *name6, name7 = names
-print(name5, name6, name7)
+names = ['John', 'Smith', 'joe', 'deo']
+
+for i, name in enumerate(names):
+    print(i, name)
+else:
+    print('For loop is done\n')
+
+i = 0
+while i < len(names):
+    print(i, names[i])
+    i += 1

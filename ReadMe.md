@@ -25,21 +25,20 @@
 * Copying of lists
 * Exercise 5
 * While loop
-* Exercise 6
 * For loop
 * For loop vs While loop
-* Exercise 8
+* Exercise 6
 * Tuples
 * Sets
-* Exercise 9
+* Exercise 7
 * Dictionaries
-* Exercise 10
+* Exercise 8
 * Functions
 * Scope
 * Classes
+* Exercise 9
+* Exercise 10 - LinkedList
 * Exercise 11
-* Exercise 12 - LinkedList
-* Exercise 13
 * Object Oriented Programming
 * File Handling
 * Conclusion
